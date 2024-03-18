@@ -1,0 +1,21 @@
+{
+  "name": "tateti",
+  "version": "1.0.0",
+  "description": "Tres en raya (Tambien conocido como tateti) realizado con ElectronJJ + TailwindCSS",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "dev": "nodemon npm start",
+    "build": "electron-packager . \"Tateti\" --\"arch=x64\" --out=\"./dist\" --icon=\"./tateti.ico\" --appname=\"Tateti\""
+  },
+  "keywords": ["tateti", "tres en raya", "tres", "en", "raya"],
+  "author": "Pistak41",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "29.0.1",
+    "electron-packager": "17.1.2",
+    "nodemon": "3.1.0"
+  }
+}

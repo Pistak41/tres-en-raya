@@ -1,2 +1,5 @@
 # Tres en Raya
-Tres en raya (Tambien conocido como "Tateti") realizado con ElectronJJ + TailwindCSS
+
+<img src="tateti.ico" style="display: block; margin: 10px auto"/>
+
+Tres en raya (Tambien conocido como "Tateti") realizado con ElectronJS + TailwindCSS
