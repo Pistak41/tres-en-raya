@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <title>Tateti</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+
+<body class="bg-black overflow-hidden">
+    <form id="table-form" class="absolute min-h-screen w-full bg-orange-400 grid place-items-center">
+        <div class="text-center">
+            <h1 class="text-4xl font-bold">Bienvenido a Ta-Te-Ti!</h1>
+            <h2 class="text-2xl font-mono">(Tres en raya)</h2>
+        </div>
+        <div class="flex flex-col">
+            <label for="size-input">
+                <span>Ingrese la cantidad de filas que desea jugar:</span>
+            </label>
+            <input class="" placeholder="3" type="number" max="10" min="3" required name="size" id="size-input">
+        </div>
+        <button type="submit"
+            class="border-2 rounded-md px-4 py-2 text-2xl font-bold text-white hover:bg-white hover:text-black transition-colors">Jugar!</button>
+    </form>
+    <table id="tablero" class="min-w-full min-h-screen flex flex-col gap-5 p-5"></table>
+</body>
+<script defer src="src/js/index.js"></script>
+
+</html>
